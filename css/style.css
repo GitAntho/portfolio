@@ -1,0 +1,342 @@
+
+html {
+    text-align: center;
+    background: url("../images/fond.png");
+    color: #e4e4e4;
+}
+
+main {
+    padding-top: 80px;
+}
+
+h1 {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+p,
+h1,
+h2 {
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+#setup {
+    width: 85%;
+    height: 30%;
+}
+
+
+/********************************************** Nav *************************************************/
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: -16px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    width: 10%;
+    margin: 0 80px 0 30px;
+}
+
+li :hover {
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+ul {
+    background: linear-gradient(#0079d0, #06bed0);
+    height: 45px;
+    padding-top: 15px;
+}
+
+nav img {
+    float: left;
+    padding: 20px 0 0 20%;
+    width: 55px;
+}
+
+
+/********************************************** About *************************************************/
+
+
+#about {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#about a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/********************************************** Competences *************************************************/
+
+
+#competences {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#html p,
+#css p,
+#wordpress p,
+#php p,
+#javascript p,
+#sql p,
+#photoshop p {
+    padding: 10px;
+}
+
+#html {
+    height: 40px;
+    width: 80%;
+    background-color: red;
+}
+
+#css {
+    height: 40px;
+    width: 75%;
+    background-color: #3b38ff;
+}
+
+#wordpress {
+    height: 40px;
+    width: 70%;
+    background-color: #0089c2;
+}
+
+#php {
+    height: 40px;
+    width: 65%;
+    background-color: blueviolet;
+}
+
+#javascript {
+    height: 40px;
+    width: 60%;
+    background-color: chocolate;
+}
+
+#sql {
+    height: 40px;
+    width: 50%;
+    background-color: darkgreen;
+}
+
+#photoshop {
+    height: 40px;
+    width: 40%;
+    background-color: #07b4ff;
+}
+
+.fond_barre {
+    height: 40px;
+    text-align: start;
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+}
+
+#logo img {
+    display: inline-block;
+    width: 23%;
+    margin: 45px 5px 0;
+}
+
+
+/********************************************** Portfolio *************************************************/
+
+
+#portfolio {
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#portfolio a {
+    width: 28%;
+    margin: 0 5px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+#portfolio a img {
+    width: 100%;
+}
+
+#portfolio a span {
+    display: none;
+    position: absolute;
+    top: 46%;
+    left: 5%;
+    font-size: 20px;
+}
+
+#portfolio a:hover span {
+    display: block;
+}
+
+#portfolio span.txt {
+    color: #ffffff;
+}
+
+#portfolio span.bg {
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/********************************************** Contact *************************************************/
+
+#contact {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#contact p {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto 40px;
+}
+
+input,
+textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%;
+    background-color: #666666;
+    border: 1px solid white;
+}
+
+input {
+    height: 30px;
+}
+
+.label {
+    text-align: start;
+    width: 75%;
+}
+
+#submit {
+    width: 10%;
+    color: white;
+}
+
+
+/********************************************** Responsive *************************************************/
+
+
+@media screen and (max-width: 540px)
+{
+    li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    ul {
+        height: 115px;
+    }
+
+
+    nav img {
+        padding: 50px 0 0 3%;
+    }
+
+    #competences,
+    #about,
+    #contact {
+        width: 70%;
+        padding-top: 150px;
+    }
+
+    #portfolio {
+        padding-top: 150px;
+    }
+
+    #portfolio a {
+        width: 80%;
+        margin: 5px 5px;
+    }
+
+    #submit {
+        width: 25%;
+    }
+}
+
+
+@media screen and (min-width: 541px) and (max-width: 986px)
+{
+    li {
+        margin: 0 5px 0 5px;
+    }
+
+    nav img {
+        padding: 20px 0 0 3%;
+    }
+
+    #competences,
+    #about,
+    #contact {
+        width: 70%;
+    }
+
+    #portfolio a:hover span {
+        display: none;
+    }
+
+    #portfolio a {
+        width: 80%;
+        margin: 5px 5px;
+    }
+
+    #submit {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 987px) and (max-width: 1440px)
+{
+    li {
+        margin: 0 40px 0 30px;
+    }
+
+    nav img {
+        padding: 20px 0 0 15%;
+    }
+
+    #competences,
+    #about,
+    #contact {
+        width: 70%;
+    }
+}
