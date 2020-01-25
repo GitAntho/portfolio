@@ -23,8 +23,8 @@
 
         <main>
 
-            <h1 id="h1">DUBOIS Anthony<br>
-                Développeur / Intégrateur Web Junior</h1>
+            <h1 id="h1">DUBOIS Anthony</h1>
+            <h2>Développeur / Intégrateur Web Junior</h2>
             
             <img src="images/setup.png" id="setup">
 

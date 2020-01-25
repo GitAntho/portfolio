@@ -1,6 +1,6 @@
 
             <section id="portfolio">
-                <h2>Portfolio</h2>
+                <h3>Portfolio</h3>
 
                 <p>Voici la liste des projets réalisés en solo :</p>
 

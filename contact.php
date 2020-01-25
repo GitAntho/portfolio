@@ -1,6 +1,6 @@
 
             <section id="contact">
-                <h2>Contact</h2>
+                <h3>Contact</h3>
 
                 <form action="contact_request.php" method="post">
                     <div class="label">
